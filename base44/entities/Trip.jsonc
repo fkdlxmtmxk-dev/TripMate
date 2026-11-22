@@ -1,0 +1,71 @@
+{
+  "name": "Trip",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "\uc5ec\ud589 \uc81c\ubaa9"
+    },
+    "destination": {
+      "type": "string",
+      "description": "\uc5ec\ud589\uc9c0"
+    },
+    "days_count": {
+      "type": "number",
+      "description": "\uc5ec\ud589 \uc77c\uc218"
+    },
+    "budget": {
+      "type": "number",
+      "description": "1\uc778 \uc608\uc0b0(\uc6d0)"
+    },
+    "companions": {
+      "type": "string",
+      "description": "\ud568\uaed8 \uac00\ub294 \uc0ac\ub78c"
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "\uc5ec\ud589 \ucde8\ud5a5"
+    },
+    "transport": {
+      "type": "string",
+      "description": "\uc774\ub3d9 \uc218\ub2e8"
+    },
+    "summary": {
+      "type": "string",
+      "description": "\uc77c\uc815 \uc694\uc57d"
+    },
+    "itinerary": {
+      "type": "array",
+      "description": "\uc77c\uc790\ubcc4 \uc77c\uc815",
+      "items": {
+        "type": "object"
+      }
+    },
+    "total_cost": {
+      "type": "number",
+      "description": "\uc608\uc0c1 \uacbd\ube44 \ud569\uacc4(\uc6d0, 1\uc778)"
+    },
+    "checklist": {
+      "type": "array",
+      "description": "\uc900\ube44\ubb3c \uccb4\ud06c\ub9ac\uc2a4\ud2b8",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "done": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "title",
+    "destination"
+  ]
+}
