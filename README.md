@@ -4,6 +4,11 @@
 
 TripMate는 사용자가 여행 목적지와 여행 기간, 예산, 동행자 및 관심사를 입력하면 맞춤형 여행 일정을 생성하고 관리할 수 있도록 돕는 여행 앱입니다.
 
+## 🌐 서비스 바로가기
+
+[TripMate 웹 앱 실행하기](https://camouflaged-trip-mate-plan.base44.app)
+
+
 ## 1. 주요 기능
 
 - **여행 정보 입력**: 여행지, 기간, 예산, 동행자, 관심사 설정
@@ -107,10 +112,6 @@ TripMate/
 ## Docs & Support
 
 GitHub integration: [https://docs.base44.com/developers/app-code/local-development/github](https://docs.base44.com/developers/app-code/local-development/github)
-
-## 🌐 서비스 바로가기
-
-[TripMate 웹 앱 실행하기](https://camouflaged-trip-mate-plan.base44.app)
 
 
 
