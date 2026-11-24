@@ -7,7 +7,7 @@ TripMate는 사용자가 여행 목적지와 여행 기간, 예산, 동행자 �
 ## 🌐 서비스 바로가기
 
 [TripMate 웹 앱 실행하기](https://camouflaged-trip-mate-plan.base44.app)
-
+12월 1일까지 한도를 다써서 못씁니다..ㅠ
 
 ## 1. 주요 기능
 
